@@ -66,14 +66,7 @@ define('db_name', 'projeto_login');
                     <?php echo "ERRO: " . $u-> $msgErro; ?>
                   
                 </div>
-                
-
-             
-            php?>
-            <div class="msg-erro"> "Preencha todos os campos." </div>
+              
             
-                }
-            }
-
 </body>
 </html>
