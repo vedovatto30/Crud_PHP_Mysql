@@ -39,7 +39,7 @@ define('db_name', 'projeto_login');
         if (!empty($nome) && !empty($cpf) && !empty($telefone) && !empty($email) && !empty($senha) && !empty($confSenha))
         {
             $u -> conectar(db_name, host_name,host_user,host_pwd);
-
+            
             if ($u -> msgErro == ""){ //esta tudo certo
                 if ($senha == $confSenha) //conferir se senha e confSenha
                 {
@@ -64,15 +64,16 @@ define('db_name', 'projeto_login');
                 ?>
                 <div class="msg-erro">
                     <?php echo "ERRO: " . $u-> $msgErro; ?>
+                  
                 </div>
-            <?php
+                
+
              
-            ?>
+            php?>
             <div class="msg-erro"> "Preencha todos os campos." </div>
             
                 }
             }
-          
-         
+
 </body>
 </html>
