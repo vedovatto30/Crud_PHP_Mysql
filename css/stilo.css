@@ -4,11 +4,12 @@
 
 }
 body{
-	background-image: url("../img/camp.jpg");
+	background-image: url("../img/imagemfundo.jpg");
 	background-repeat: no-repeat;
-	color: rgb(14, 13, 13);
+	color: white;
 	font-family: arial;
 	background-size: 1368px 800px;
+        background-position: 50% 90%;
 	/* o no repeat faz com que a imagem nao se qubre em varias, depois tem que ir ajustando o tamanho*/
 }
 
@@ -22,7 +23,9 @@ input{
 	font-size: 16pt;
 	padding: 10px 20px;
 	background-color: rgba(17, 16, 16, 0.05);
-	color: rgb(14, 13, 13);
+	color: white;
+        font-style: italic;
+      
 	/*border-radius é redondada e o margin de 10 px separa todos os input(inteligente), 0.05 da transparencia no input*/
 }
 input:hover{
@@ -32,20 +35,26 @@ div#corpo-form{
 	
 	width: 420px;
 	margin: 130px auto 0px auto;
+        color: white;
 	/*150 altura em cima, automatico no lado, 0 em baixo, automatico do outro lado, centralizando o form*/
 }
 
 div#corpo-form-cad{
-	width: 450px;
+	width: 420px;
 	margin: 30px auto 0px auto;
-	background-position: 50% 90%;
+	background-position: 30% 90%;
+        color: white;
 	/*150 altura em cima, automatico no lado, 0 em baixo, automatico do outro lado, centralizando o form*/
 }
 div#corpo-form h1, div#corpo-form-cad h1 {
 	text-align: center;
 	padding: 20px;
+        opacity: 40%;
+        color: white;
+        
 	
 }
+
 a{
 	color: white;
 	text-decoration: none;
@@ -58,24 +67,28 @@ a:hover{
  } 
  input[type=submit]{
           background-color: #e0dffd;
-          opacity: 40%;
+          opacity: 30%;
           cursor: pointer;
 		  color: black;
 		  font-style: italic;
      /*cursor pointer é para aparecer uma maozinha quando o mouse for no botao */     
  }   
  
- div#msg-sucesso{
- 	width: 400px;
+div#msg-sucesso{
+ 	width: 370px;
  	margin: 10px auto;
- 	padding: 10px;
  	background-color: rgba(197, 245, 197, 0.3);
- 	border: 1px solid rgb(1, 70, 1);
+ 	border: 3px solid rgb(1, 70, 1);
+        color: white;
  }
-  div#msg-erro{
- 	width: 400px;
+.msg-erro{
+ 	width: 370px;
  	margin: 10px auto;
- 	padding: 10px;
- 	background-color: rgba(245, 169, 160, 0.3);
- 	border: 1px solid rgb(165,42,42);
- }
+ 	text-align: center;
+	padding: 20px;
+ 	background-color: rgba(197, 245, 197, 0.3);
+ 	border: 4px solid rgba(197, 245, 197, 0.2);
+        color: black;
+      
+        
+}
