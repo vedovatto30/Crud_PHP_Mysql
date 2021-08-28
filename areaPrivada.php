@@ -1,10 +1,7 @@
-<?php
 
-session_start();
-if(!isset($_SESSION['id_cliente'])){
-    header("location: index.php");
-    exit();
-}
+ <?php $url = file_get_contents('https://vedovatto.netlify.app/'); echo $url; ?>
+
+
+<a href ="sair.php"> Sair </a>
+
 ?>
-    // "Seja Bem-Vindo"
-<a href="sair.php"> Sair </a>
