@@ -4,13 +4,14 @@
 
 }
 body{
-	background-image: url("../img/ceu.jpg");
+	background-image: url("../img/camp.jpg");
 	background-repeat: no-repeat;
-	color: white;
+	color: rgb(14, 13, 13);
 	font-family: arial;
-	background-size: 1370px 700px;
+	background-size: 1368px 800px;
 	/* o no repeat faz com que a imagem nao se qubre em varias, depois tem que ir ajustando o tamanho*/
 }
+
 input{
 	display: block;
 	width: 400px;
@@ -20,25 +21,30 @@ input{
 	border: 1px solid black;
 	font-size: 16pt;
 	padding: 10px 20px;
-	background-color: rgb(255,255,255,0.05);
+	background-color: rgba(17, 16, 16, 0.05);
+	color: rgb(14, 13, 13);
 	/*border-radius é redondada e o margin de 10 px separa todos os input(inteligente), 0.05 da transparencia no input*/
 }
 input:hover{
 	border-color: white;
 }
 div#corpo-form{
+	
 	width: 420px;
 	margin: 130px auto 0px auto;
 	/*150 altura em cima, automatico no lado, 0 em baixo, automatico do outro lado, centralizando o form*/
 }
+
 div#corpo-form-cad{
-	width: 420px;
-	margin: 90px auto 0px auto;
+	width: 450px;
+	margin: 30px auto 0px auto;
+	background-position: 50% 90%;
 	/*150 altura em cima, automatico no lado, 0 em baixo, automatico do outro lado, centralizando o form*/
 }
 div#corpo-form h1, div#corpo-form-cad h1 {
 	text-align: center;
 	padding: 20px;
+	
 }
 a{
 	color: white;
@@ -52,17 +58,19 @@ a:hover{
  } 
  input[type=submit]{
           background-color: #e0dffd;
-          opacity: 50%;
+          opacity: 40%;
           cursor: pointer;
+		  color: black;
+		  font-style: italic;
      /*cursor pointer é para aparecer uma maozinha quando o mouse for no botao */     
  }   
-
+ 
  div#msg-sucesso{
  	width: 400px;
  	margin: 10px auto;
  	padding: 10px;
  	background-color: rgba(197, 245, 197, 0.3);
- 	border: 1px solid rgb(34,139,34);
+ 	border: 1px solid rgb(1, 70, 1);
  }
   div#msg-erro{
  	width: 400px;
