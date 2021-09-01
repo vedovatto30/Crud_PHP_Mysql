@@ -19,6 +19,7 @@ require_once 'CLASSES/usuarios.php';
 <input type="password" name="senha" placeholder="Senha" maxlength="15">
 <input type="password" name="confSenha" placeholder="Confirmar Senha" maxlength="15">
 <input type="submit" value="Cadastrar">
+<a href="index.php">Retornar à página inicial</a>
 </form>
 </div>
 <?php
